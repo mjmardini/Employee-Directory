@@ -1,0 +1,14 @@
+div .card{
+    border:2px solid grey;
+    border-radius: 4px;
+    width:400px;
+    margin: 5px 5px auto;
+    display: inline-block;
+}
+div label{
+    font-weight: bold;
+}
+div img{
+    height:200px;
+    margin: 5px auto;
+}
