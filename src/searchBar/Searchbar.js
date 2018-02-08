@@ -10,7 +10,7 @@ class Searchbar extends Component {
     render(){
         return(
             <div>
-                <input type = "text" placeholder = "Type here to filter Employees" onKeyUp="search"/>
+                <input type = "text" placeholder = "Type here to filter Employees"/>
             </div>
         );
     }
