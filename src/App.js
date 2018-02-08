@@ -26,6 +26,9 @@ class App extends Component {
                 <EmployeeCard/>
                 <EmployeeCard/>
                 <EmployeeCard/>
+                <EmployeeCard/>
+                <EmployeeCard/>
+                <EmployeeCard/>
             </div>
         );
     }

@@ -2,8 +2,10 @@ div .card{
     border:2px solid grey;
     border-radius: 4px;
     width:400px;
-    margin: 5px 5px auto;
+    margin: 10px 5px auto;
     display: inline-block;
+    background-color: #5D6D7E;
+
 }
 div label{
     font-weight: bold;
@@ -11,4 +13,6 @@ div label{
 div img{
     height:200px;
     margin: 5px auto;
+    border-radius: 50%;
+    border:2px solid grey;
 }
