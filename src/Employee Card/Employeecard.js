@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './card.css'
-import EmployeeLogo from '../employee.svg'
+import './card.css';
+import EmployeeLogo from '../employee.svg';
 
     /*
         todo: add pagination in algolia api

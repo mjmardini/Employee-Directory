@@ -3,6 +3,7 @@ import './App.css';
 
 /*Component Imports*/
 import Searchbar from './searchBar/Searchbar';
+import EmployeeLogo from './employee.svg';
 import EmployeeCard from './Employee Card/Employeecard'
 import Header from './header/header'
 import Footer from './footer/footer'
@@ -16,7 +17,6 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Header />
                 <header className="App-header">
                     <img src = {EmployeeLogo} class = "App-logo"/>
                     <h1 className="App-title">Employee Directory</h1>
