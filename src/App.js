@@ -49,9 +49,14 @@ class App extends Component {
                     </header>
                     <Searchbar />
                     {this.state.isLoaded ?
-                        this.state.results.map((results) => {
-                            <EmployeeCard fname={results.name.first} lname={results.name.last} dob={results.dob} phone={results.phone} />
-                        }
+                        this.state.results.map((results) =>
+                            <EmployeeCard fname={results.name.first}
+                                lname={results.name.last}
+                                dob={results.dob}
+                                phone={results.phone}
+                                img={results.picture.large}
+                            />
+
                     ) : <h1>Loading...</h1>}
             </div>
         );
