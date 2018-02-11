@@ -11,7 +11,7 @@ class EmployeeCard extends Component {
             <div className = 'card'>
                     <img src={this.props.img} alt={this.props.fname}/><br />
                     <label>Name:</label> {this.props.fname} {this.props.lname}<br />
-                    <label>Age:</label> {this.props.dob}<br />
+                    <label>Date of Birth:</label> {this.props.dob}<br />
                     <label>Phone:</label> {this.props.phone}<br />
             </div>
         )

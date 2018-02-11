@@ -10,7 +10,6 @@ import Footer from './footer/footer'
 
 /*
     todo: add animation in css or api. *setTimeout for loading...*
-    auto add employees? how to access employeeData from App component? so i can use .map function.
 */
 
 class App extends Component {
@@ -25,12 +24,13 @@ class App extends Component {
     componentDidMount() {
         fetch("https://randomuser.me/api/?results=40")
             .then(res => res.json())
-            .then(
-                (result) => {
-                    this.setState({
+            .then((result) => {
+                    setTimeout(()=>{
+                        this.setState({
                         isLoaded: true,
                         results: result.results
                     });
+                },500)
             },
             (error) => {
                 this.setState({
